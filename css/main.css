@@ -267,9 +267,10 @@ a,li,ul,ul {
     margin-right: 0;
 }
 .gallary-fillter__items-container {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .gallary-fillter__item {
@@ -360,7 +361,7 @@ a,li,ul,ul {
 }
 
 .lookbook {
-    width: 1330px;
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -379,7 +380,7 @@ a,li,ul,ul {
 }
 .lookbook__item--information {
     display: block;
-    margin-left: 45%;
+    margin-left: 40%;
 }
 .lookbook__item--title {
     text-align: left;
